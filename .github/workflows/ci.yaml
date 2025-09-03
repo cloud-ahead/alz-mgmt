@@ -17,7 +17,7 @@ env:
 
 jobs:
   validate_and_plan:
-    uses: cloud-ahead/alz-mgmt-templates/.github/workflows/ci-template.yaml@bug/main
+    uses: cloud-ahead/alz-mgmt-templates/.github/workflows/ci-template.yaml@main
     name: 'CI'
     permissions:
       id-token: write

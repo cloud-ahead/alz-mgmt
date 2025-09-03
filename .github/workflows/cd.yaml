@@ -20,6 +20,9 @@ on:
         default: 'latest'
         type: string
 
+env:
+  TF_LOG: "DEBUG"
+
 jobs:
   plan_and_apply:
     uses: cloud-ahead/alz-mgmt-templates/.github/workflows/cd-template.yaml@main

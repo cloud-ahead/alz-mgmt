@@ -194,7 +194,7 @@ management_group_settings = {
       management_group_name = "management"
     }
     bootstrap = {
-      subscription_id       = "$${bootstrap_subscription_id}"
+      subscription_id       = "ca84c060-de81-49a6-b589-03c793e99463"
       management_group_name = "management"
     }
   }
@@ -382,4 +382,5 @@ hub_and_spoke_vnet_virtual_networks = {
       }
     }
   }
+
 }

@@ -12,12 +12,9 @@ on:
         default: 'latest'
         type: string
 
-env:
-  TF_LOG: DEBUG
-
 jobs:
   validate_and_plan:
-    uses: cloud-ahead/alz-mgmt-templates/.github/workflows/ci-template.yaml@bug/tf-log-debug
+    uses: cloud-ahead/alz-mgmt-templates/.github/workflows/ci-template.yaml@main
     name: 'CI'
     permissions:
       id-token: write
